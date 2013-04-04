@@ -1,13 +1,13 @@
 %define		pkg	read-package-json
 Summary:	The thing npm uses to read package.json files with semantics and defaults and validation
 Name:		nodejs-%{pkg}
-Version:	0.2.2
+Version:	0.3.0
 Release:	1
 License:	MIT
 Group:		Development/Libraries
 URL:		https://github.com/isaacs/read-package-json
 Source0:	http://registry.npmjs.org/%{pkg}/-/%{pkg}-%{version}.tgz
-# Source0-md5:	a79c5928924b9a25172b09971277ac1a
+# Source0-md5:	489153828c50be587fe4bb57d5b94f76
 BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs
 Requires:   nodejs-glob >= 3.1.9
