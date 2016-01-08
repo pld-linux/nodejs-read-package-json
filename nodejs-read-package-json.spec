@@ -5,9 +5,9 @@ Version:	1.1.8
 Release:	1
 License:	MIT
 Group:		Development/Libraries
-URL:		https://github.com/isaacs/read-package-json
 Source0:	http://registry.npmjs.org/%{pkg}/-/%{pkg}-%{version}.tgz
 # Source0-md5:	b4a15c771068713f8c86cd0c70164703
+URL:		https://github.com/isaacs/read-package-json
 BuildRequires:	rpmbuild(macros) >= 1.634
 Requires:	nodejs
 Requires:	nodejs-glob < 3.3.0
